@@ -1,0 +1,35 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+body {
+background-color: #f8fafc;
+color: #1e293b;
+scroll-behavior: smooth;
+}
+button {
+cursor: pointer;
+transition: all 0.2s ease;
+}
+button:hover {
+opacity: 0.9;
+transform: scale(1.02);
+}
+input, select, textarea {
+outline: none;
+transition: border-color 0.2s;
+}
+input:focus {
+border-color: #64748b;
+box-shadow: 0 0 0 2px rgba(100, 116, 139, 0.2);
+}
+.scrollbar-thin::-webkit-scrollbar {
+height: 6px;
+width: 6px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+background: rgba(0, 0, 0, 0.2);
+border-radius: 9999px;
+}
